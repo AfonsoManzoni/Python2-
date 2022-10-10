@@ -1,0 +1,15 @@
+print("Bem vindo ao convertor de km para milhas.")
+x = int(input("Número de Km que quer converter?"))
+234
+print(f"{x*0.621371192} milhas")
+
+while True:
+
+    y = input("Deseja converter mais alguma vez?")
+
+    if y == "sim":
+        x = int(input("Número de Km que quer converter?"))
+        print(f"{x * 0.621371192} milhas")
+    else:
+        print("Obrigado por ter usado o convertor. Volte sempre")
+        Break
